@@ -134,10 +134,11 @@
 
             $.addEvent(image, 'error', function () {
                 // Note: this event is documented elsewhere, in TileSource
-                _this.raiseEvent('open-failed', {
-                    message: "Error loading image at " + url,
-                    source: url
-                });
+                // _this.raiseEvent('open-failed', {
+                //     message: "Error loading image at " + url,
+                //     source: url
+                // });
+                image.src = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
             });
 
             image.src = url;
