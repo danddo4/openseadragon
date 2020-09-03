@@ -138,7 +138,7 @@
                 //     message: "Error loading image at " + url,
                 //     source: url
                 // });
-                image.src = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                image.src = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
             });
 
             image.src = url;
